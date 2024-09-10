@@ -1,4 +1,3 @@
-import logo from "/logo.png";
 import "./App.css";
 import { getRandomWord } from "./utils";
 import { useState } from "react";
@@ -84,9 +83,6 @@ function App() {
 
   return (
     <>
-      <div>
-        <img src={logo} className="logo" alt="Rocket logo" />
-      </div>
       <div className="card">
         <h1>Guess The Word 🚀</h1>
         <h3>Word Display</h3>
